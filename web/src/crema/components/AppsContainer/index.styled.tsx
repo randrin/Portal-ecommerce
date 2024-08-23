@@ -147,7 +147,7 @@ export const StyledAppWrap = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding-bottom: 10px;
+  padding: 15px;
 `;
 
 export const StyledAppWrapHeader = styled.div`

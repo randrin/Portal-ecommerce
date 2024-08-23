@@ -6,6 +6,7 @@ const ProductsCategory = () => {
   return (
     <StyledProductSidebarTree
       showLine
+      selectable={true}
       switcherIcon={<DownOutlined />}
       defaultExpandedKeys={['1']}
       treeData={[
@@ -24,6 +25,24 @@ const ProductsCategory = () => {
             {
               title: "Kid's Watches",
               key: '1.3',
+            },
+          ],
+        },
+        {
+          title: 'Clothes',
+          key: '2',
+          children: [
+            {
+              title: "Men's Clothes",
+              key: '2.1',
+            },
+            {
+              title: "Women's Clothes",
+              key: '2.2',
+            },
+            {
+              title: "Kid's Clothes",
+              key: '2.3',
             },
           ],
         },
